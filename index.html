@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillWave - Online Learning Platform</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header class="sw-header">
+      <!-- Nav bar starts -->
+      <div class="sw-nav-container">
+        <nav class="sw-nav :flex :spac-bet :align-center">
+          <div class="sw-logo :flex">
+            <img src="images/logo.png" alt="logo" />
+            <h1>SkillWave</h1>
+          </div>
+          <ul class="sw-nav-links :disp-none :flex-lap">
+            <li><a class="link" href="#">Home</a></li>
+            <li><a class="link" href="#">About</a></li>
+            <li><a class="link"href="#">Feature</a></li>
+            <li><a class="link" href="#">Pricing</a></li>
+            <li><a class="link" href="#">Contact</a></li>
+            <li><a href="#" class="sw-get-started-btn button">Get started</a></li>
+          </ul>
+          <label class="sw-ham-label :disp-none-lap" for="sw-ham-checkbox">
+            <i class="fa-solid fa-bars sw-ham-icon"></i>
+          </label>
+        </nav>
+        <input type="checkbox" class=":disp-none" id="sw-ham-checkbox" />
+        <nav class="sw-ham :disp-none-lap :pos-abs">
+          <ul class="sw-ul :flex-col">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Feature</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="sw-get-started-btn button">Get started</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Nav bar ends -->
+      <!-- Hero Section starts -->
+      <div class="sw-header-content :flex-col :align-center :text-center :juscont-center-lap :flex-row-rev-lap">
+        <img src="images/hero-cropped.svg" alt="">
+        <div class="sw-hero-container :flex-col :align-center :text-start-lap :align-flex-start-lap">
+          <h1>Level Up Your Skills with SkillWave</h1>
+          <p class="sw-sub-head">Unlock a world of learning. Explore expert-led courses and master new skills at your own pace.</p>
+          <a class="sw-start-learning-btn button" href="#">Start Learning Today!</a>
+        </div>
+      </div>
+    </header>
+    <!-- Hero Section ends -->
+
+     <!-- Partners section starts -->
+     <section class="sw-partners">
+      <p class="sw-partners-text :text-center">Trusted by over 15,000 companies and millions of learners around the world</p>
+      <div class="sw-partners-logos :text-center :flex :flex-wrap :juscont-center">
+        <img src="https://cms-images.udemycdn.com/content/tqevknj7om/svg/volkswagen_logo.svg?position=c&quality=80&x.app=portals" alt="">
+        <img src="https://cms-images.udemycdn.com/content/2gevcc0kxt/svg/samsung_logo.svg?position=c&quality=80&x.app=portals" alt="">
+        <img src="https://cms-images.udemycdn.com/content/mueb2ve09x/svg/cisco_logo.svg?position=c&quality=80&x.app=portals" alt="">
+        <img src="https://cms-images.udemycdn.com/content/ryaowrcjb2/svg/vimeo_logo_resized-2.svg?position=c&quality=80&x.app=portals" alt="">
+        <img src="https://cms-images.udemycdn.com/content/bthyo156te/svg/procter_gamble_logo.svg?position=c&quality=80&x.app=portals" alt="">
+        <img src="https://cms-images.udemycdn.com/content/luqe0d6mx2/svg/hewlett_packard_enterprise_logo.svg?position=c&quality=80&x.app=portals" alt="">
+        <img src="https://cms-images.udemycdn.com/content/siaewwmkch/svg/citi_logo.svg?position=c&quality=80&x.app=portals" alt="">
+        <img src="https://cms-images.udemycdn.com/content/swmv0okrlh/svg/ericsson_logo.svg?position=c&quality=80&x.app=portals" alt="">
+      </div>
+     </section>
+     <!-- Partners section ends -->
+
+     <!-- Features section starts -->
+     <section class="sw-features :text-center :pos-rel">
+        <h1 class="sw-features-title">
+          Why choose SkillWave?
+        </h1>
+        <p class="sw-features-text">Skillwave offers expert-led courses designed to help you excel in your career and personal life. Start your journey to success today.</p>
+    
+     <div class="sw-features-container :flex-col :flex-row-tab :flex-wrap-tab :flex-row-lap :flex-nowrap-lap :spac-bet-lap">
+      <div class="sw-features-card " data-aos="fade-up" data-aos-delay="0">
+        <img src="images/graduation-cap-book.svg" alt="graduation-cap-book">
+        <h2>Expert-Led courses</h2>
+        <p>Learn from industry professionals who bring real-world experience, practical insights, and expert guidance to every lesson.</p>
+      </div>
+      <div class="sw-features-card" data-aos="fade-up" data-aos-delay="200">
+        <img src="images/clock-laptop.svg" alt="clock-laptop">
+        <h2>Flexible Learning</h2>
+        <p>Access courses anytime, anywhere, and learn at your own pace, fitting your education into your schedule.</p>
+      </div>
+      <div class="sw-features-card" data-aos="fade-up" data-aos-delay="400">
+        <img src="images/certificate.svg" alt="certificate">
+        <h2>Certification & Recognition</h2>
+        <p>Earn certificates upon course completion to enhance your resume and showcase your new skills.</p>
+      </div>
+     </div>
+    </section>
+     <!-- Features section ends -->
+
+     <!-- Learning Experience section starts -->
+     <section class="sw-experience :flex-col :text-center :flex-row-tab :text-start-tab">
+      <img src="images/laptop-gear.svg" alt="laptop-gear">
+      <div class="sw-container">
+        <h2>Seamless Learning Experience for Everyone</h2>
+        <p>At Skillwave, we believe learning should be accessible to everyone. With our easy-to-use platform, you can configure your courses and materials with just a few clicks, ensuring a smooth and personalized learning journey.</p>
+        <a class="sw-readmore-btn" href="#">Read More</a>
+      </div>
+     </section>
+     <!-- Learning Experience section ends -->
+
+     <!-- Learning Tools section starts -->
+     <section class="sw-learning-tools :flex-col :text-center :flex-row-rev-tab :text-start-tab">
+      <img src="images/discussion-bubble.svg" alt="discussion-bubble">
+      <div class="container">
+        <h2>Interactive Learning Tools at Your Fingertips</h2>
+        <p>Skillwave offers powerful interactive tools that make learning engaging and dynamic, fostering active participation and deeper understanding. Elevate your educational experience with quizzes, discussions, and multimedia integration.</p>
+        <a class="readmore-btn" href="#">Read More</a>
+      </div>
+     </section>
+     <!-- Learning Tools section ends -->
+
+     <!-- More Features section starts -->
+      <section class="sw-more-features :text-center :pos-rel">
+        <h1 class="sw-more-features-title">
+          More Features
+        </h1>
+        <p class="sw-more-features-text">Skillwave offers expert-led courses designed to help you excel in your career and personal life. Start your journey to success today.</p>
+        <div class="sw-more-features-container :flex-col :flex-row-tab :flex-wrap-tab :flex-wrap-lap">
+          <div class="sw-more-features-card :flex-col :align-center :text-start-tab :align-flex-start-lap" data-aos="fade-up" data-aos-delay="0">
+            <img src="images/road-map.svg" alt="road-map">
+            <h3>Personalized Learning Paths</h3>
+            <p>Tailor your learning journey with courses and resources that match your goals and skill level</p>
+          </div>
+          <div class="sw-more-features-card :flex-col :align-center :text-start-tab :align-flex-start-lap" data-aos="fade-up" data-aos-delay="200">
+            <img src="images/progress-chart.svg" alt="progress-chart">
+            <h3>Real-Time Progress Tracking</h3>
+            <p>Monitor your learning journey with real-time progress updates and insights.</p>
+          </div>
+          <div class="sw-more-features-card :flex-col :align-center :text-start-tab :align-flex-start-lap" data-aos="fade-up" data-aos-delay="400">
+            <img src="images/group-discussion.svg" alt="group-discussion">
+            <h3>Collaborative Learning</h3>
+            <p>Engage with peers and instructors through forums, group projects, and live discussions</p>
+          </div>
+          <div class="sw-more-features-card :flex-col :align-center :text-start-tab :align-flex-start-lap" data-aos="fade-up" data-aos-delay="600">
+            <img src="images/open-book.svg" alt="open-book">
+            <h3>Comprehensive Course Library</h3>
+            <p>Access a vast library of courses across various subjects, taught by industry experts</p>
+          </div>
+          <div class="sw-more-features-card :flex-col :align-center :text-start-tab :align-flex-start-lap" data-aos="fade-up" data-aos-delay="800">
+            <img src="images/trophy.svg" alt="trophy">
+            <h3>Gamified Learning Experience</h3>
+            <p>Stay motivated with gamified elements like badges, leaderboards, and rewards for your achievements</p>
+          </div>
+          <div class="sw-more-features-card :flex-col :align-center :text-start-tab :align-flex-start-lap" data-aos="fade-up" data-aos-delay="1000">
+            <img src="images/smartphone.svg" alt="smartphone">
+            <h3>Seamless Mobile Access</h3>
+            <p>Learn on the go with full access to all platform features from your mobile device</p>
+          </div>
+          <div class="sw-more-features-card :flex-col :align-center :text-start-tab :align-flex-start-lap" data-aos="fade-up" data-aos-delay="1200">
+            <img src="images/hand-holding-shield.svg" alt="hand-holding-shield">
+            <h3>Secure & Private</h3>
+            <p>Your data is safe with end-to-end encryption and advanced security protocols</p>
+          </div>
+          <div class="sw-more-features-card :flex-col :align-center :text-start-tab :align-flex-start-lap" data-aos="fade-up" data-aos-delay="1400">
+            <img src="images/quiz-clipboard.svg" alt="quiz-clipboard">
+            <h3>Quizzes & Assessments</h3>
+            <p>Test your knowledge with engaging quizzes and assessments that track your progress</p>
+          </div>
+        </div>
+     </section>
+     <!-- More Features section ends -->
+
+     <!-- Testimonials section starts -->
+      <section class="sw-testimonials :text-center :pos-rel">
+        <h1 class="sw-testimonials-title">Testimonials</h1>
+        <p class="sw-testimonials-text">Hear from our satisfied learners and organizations who have experienced the impact of Skillwave. Discover how our platform has empowered teams to achieve their goals and excel in their careers.</p>
+        <div class="sw-testimonials-container :flex-col :flex-row-tab :flex-wrap-tab">
+          <div class="sw-testimonials-card :pos-rel" data-aos="fade-up" data-aos-delay="0">
+            <p class="text">"Skillwave has transformed the way our team learns. The platform's intuitive interface and high-quality content have made upskilling enjoyable and efficient"</p>
+            <div class="sw-testimonials-profile :pos-abs">
+              <img class="image" src="https://media.istockphoto.com/id/685132225/photo/male-professional-smiling-over-white-background.jpg?s=612x612&w=0&k=20&c=GulKHak3JZ5a1qiqsC9NtI7lAJNTkXoJ0gEhkD1I_xk=" alt="">
+              <h4 class="name">John Doe</h4>
+              <p class="company">Learning & Development Manager, TechCorp</p>
+            </div>
+          </div>
+          <div class="sw-testimonials-card :pos-rel" data-aos="fade-up" data-aos-delay="200">
+            <p class="text">"The variety of courses offered on Skillwave is unmatched. Our employees are more engaged and motivated, thanks to the interactive learning experience"</p>
+            <div class="sw-testimonials-profile :pos-abs">
+              <img class="image" src="https://www.shutterstock.com/image-photo/portrait-business-smiling-woman-looking-600nw-2231076335.jpg" alt="">
+              <h4 class="name">Jane Smith</h4>
+              <p class="company">HR Director, Innovate Solutions</p>
+            </div>
+          </div>
+          <div class="sw-testimonials-card michael :pos-rel" data-aos="fade-up" data-aos-delay="400">
+            <p class="text">"Skillwave's real-time progress tracking has been a game-changer for our team. We can now easily measure the impact of our training programs"</p>
+            <div class="sw-testimonials-profile :pos-abs">
+              <img class="image" src="https://media.istockphoto.com/id/1290528178/photo/be-so-good-you-become-your-own-source-of-inspiration.jpg?s=612x612&w=0&k=20&c=kTmOEh9wv9vUC3cN_Ps8H2XCnXaly7yzZg7ybLsLi7Q=" alt="">
+              <h4 class="name">Michael Lee</h4>
+              <p class="company">Training Coordinator, Global Ventures</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonials section ends -->
+
+      <!-- Footer section starts -->
+      <footer class="sw-footer :pos-rel">
+        <div class="sw-offer-card :flex-col :text-center :pos-abs :flex-row-tab">
+          <h3 class="text :text-start-tab">Sign up today and enjoy a 7-day free trial on all our courses</h3>
+          <a class="free-trial-btn button" href="#">Claim Your Free Trial</a>
+        </div>
+        <div class="sw-footer-container :flex-col :text-center :flex-row-tab :spac-bet-tab">
+          <div class="sw-company-profile">
+            <img class="image" src="images/logo.png" alt="skillwave">
+            <h1 class="title">SkillWave</h1>
+          </div>
+          <div class="sw-footer-links :flex-col :align-center :align-flex-start-lap">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Feature</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="sw-footer-links :flex-col :align-center :align-flex-start-lap">
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Support</a>
+            <a href="#">FAQ</a>
+          </div>
+          <div class="sw-footer-links :flex-col :align-center :align-flex-start-lap">
+            <p>+(012) 345 678</p>
+            <p>info@skillwave.com</p>
+            <div class="sw-address :flex-col :align-center :align-flex-start-lap">
+              <p>Suite 500,</p>
+              <p>San Francisco,</p>
+              <p>United States</p>
+            </div>
+            <div class="sw-social-media :flex :juscont-center">
+              <div class="logo">
+                <img src="images/fb.svg" alt="facebook">
+              </div>
+              <div class="logo">
+                <img src="images/x.svg" alt="facebook">
+              </div>
+              <div class="logo">
+                <img src="images/insta.svg" alt="facebook">
+              </div>
+            </div>
+          </div>
+          </div>
+        <div class="sw-page-up">
+          <a href="#">
+            <i class="fa-solid fa-angles-up" style="color: #ffffff;"></i>
+        </a>
+        </div>  
+        <div class="sw-footer-bottom :text-center">
+          <p>&copy; 2024 SkillWave. All rights reserved.</p>
+        </div> 
+      </footer>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script> AOS.init(); </script>
+
+</html>
